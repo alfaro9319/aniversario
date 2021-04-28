@@ -204,8 +204,6 @@ if (anho == "" || length.anho > 4 || anho < 1960 || anho > 2019) {
 } else {
     $('#igpAlert').addClass('invisible');
     $("#modalIGP").modal();
-	document.head.innerHTML += "<meta property='og:image' content='https://www.igp.gob.pe/eventos/aniversario/2021/radio-observatorio-jicamarca/assets/img/anhos/"+anho+".jpg'>";
-	document.head.innerHTML += "<meta property='twitter:image' content='https://www.igp.gob.pe/eventos/aniversario/2021/radio-observatorio-jicamarca/assets/img/anhos/"+anho+".jpg'>";
     let numran=Math.floor(Math.random() * 100000000000000);
     document.getElementById('igpAnho').innerHTML = anho;
     document.getElementById('igpLeyenda').innerHTML = leyenda;
